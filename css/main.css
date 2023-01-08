@@ -432,3 +432,17 @@ display: flex;
     display: flex;
  
 }
+.print__close{
+    padding: 8px;
+    background: var(--black);
+    color: var(--white);
+    font-family: var(--fontOpen);
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.print__close:hover{
+    padding: 8px;
+    background: var(--green);
+    color: var(--white);
+}
